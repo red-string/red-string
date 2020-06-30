@@ -1,0 +1,7 @@
+{
+  "name": "@red-string/client",
+  "private": true,
+  "scripts": {
+    "start": "tsc"
+  }
+}

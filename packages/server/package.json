@@ -1,0 +1,7 @@
+{
+  "name": "@red-string/server",
+  "private": true,
+  "scripts": {
+    "start": "tsc"
+  }
+}
