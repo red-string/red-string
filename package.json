@@ -7,6 +7,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "start": "lerna run start --stream",
+    "install": "lerna exec yarn",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "test": "jest"
   },
