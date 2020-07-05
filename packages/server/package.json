@@ -2,7 +2,19 @@
   "name": "@red-string/server",
   "version": "0.1.0",
   "private": true,
+  "main": "./api",
   "scripts": {
-    "start": "tsc"
+    "develop": "vercel dev"
+  },
+  "dependencies": {
+    "@vercel/node": "^1.7.1",
+    "neo4j-driver": "^4.1.0"
+  },
+  "peerDependencies": {
+    "@types/jest": "26.0.3",
+    "@types/node": "14.0.14",
+    "jest": "^26.1.0",
+    "lerna": "^3.22.1",
+    "ts-jest": "^26.1.1"
   }
 }
