@@ -1,14 +1,14 @@
 export interface Thing {
-    nuts: string;
+    nuts: string
 }
 
 export const mine: Thing = {
-    nuts: 'caio baby',
+  nuts: 'caio baby'
 }
 
-export function isNuts(thing: Thing): boolean {
-    return true;
+export function isNuts (thing: Thing): boolean {
+  return true
 }
 
-isNuts(mine);
-const cool = true;
+isNuts(mine)
+const cool = true
